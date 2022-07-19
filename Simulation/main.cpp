@@ -22,15 +22,13 @@ int main()
     ofstream file("protokolas.txt"); 
 
     system("cls");
-    cout << "Pijus Zlatkus, 4 grupe 2 pogrupis, 3 uzdavinis 12 variantas." << endl;
     cout << "Uzduotis - grudu sandelis (ADT: stekas, eile)."<< endl;
     cout << "Programos tikslas istirti, kuris grudu apskaitos metodas yra geresnis tarp FIFO (first-in, first-out) ir LIFO (last-in, first-out) supirkimo metodu." << endl << endl;
     cout << "Pradiniai duomenys:" << endl;
 
     file << "PIRMA DALIS. Duomenys" << endl;
-    file << "  1) Pijus Zlatkus, 4 grupe 2 pogrupis, 3 uzdavinis 12 variantas." << endl;
-    file << "  2) Uzduotis - grudu sandelis (ADT: stekas, eile)."<< endl;
-    file << "  3) Programos tikslas istirti, kuris grudu apskaitos metodas yra geresnis tarp FIFO (first-in, first-out) ir LIFO (last-in, first-out) supirkimo metodu." << endl;
+    file << "  1) Uzduotis - grudu sandelis (ADT: stekas, eile)."<< endl;
+    file << "  2) Programos tikslas istirti, kuris grudu apskaitos metodas yra geresnis tarp FIFO (first-in, first-out) ir LIFO (last-in, first-out) supirkimo metodu." << endl;
 
     readFromFile("test.txt", file, averageAmount, averagePrice, priceDevation, amountDevation, surcharge);
 
@@ -84,25 +82,25 @@ void readFromFile(string filename, ofstream &out, int &averageAmount, int &avera
     string tmp;
     file >> averageAmount;
     cout << "Superkamu grudu norma: " << averageAmount << " t" << endl;
-    out << "  4) Superkamu grudu norma: " << averageAmount << " t" << endl;
+    out << "  3) Superkamu grudu norma: " << averageAmount << " t" << endl;
     getline(file, tmp);
     file >> amountDevation;
     cout << "Superkamu grudu kiekio maksimalus nuokrypis: " << amountDevation << "%" << endl;
-    out << "  5) Superkamu grudu kiekio maksimalus nuokrypis: " << amountDevation << "%" << endl;
+    out << "  4) Superkamu grudu kiekio maksimalus nuokrypis: " << amountDevation << "%" << endl;
     getline(file, tmp);
 
     file >> averagePrice;
     cout << "Supirkimo kaina: " << averagePrice << " Eur/t" << endl;
-    out << "  6) Supirkimo kaina: " << averagePrice << " Eur/t" << endl;
+    out << "  5) Supirkimo kaina: " << averagePrice << " Eur/t" << endl;
     getline(file, tmp);
     file >> priceDevation;
     cout << "Supirkimo kainos maksimalus nuokrypis: " << priceDevation << "%" << endl;
-    out << "  7) Supirkimo kainos maksimalus nuokrypis: " << priceDevation << "%" << endl;
+    out << "  6) Supirkimo kainos maksimalus nuokrypis: " << priceDevation << "%" << endl;
     getline(file, tmp);
 
     file >> surcharge;
     cout << "Grudu kainos antkainis: " << surcharge << "%" << endl;
-    out << "  8) Grudu kainos antkainis: " << surcharge << "%" << endl;
+    out << "  7) Grudu kainos antkainis: " << surcharge << "%" << endl;
     getline(file, tmp);
     file.close();
 }
