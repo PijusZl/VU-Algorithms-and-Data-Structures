@@ -1,6 +1,5 @@
 PIRMA DALIS. Duomenys
-  1) Pijus Zlatkus, 4 grupe 2 pogrupis, 3 uzdavinis 12 variantas.
-  2) Uzduotis - grudu sandelis (ADT: stekas, eile).
+  1) Uzduotis - grudu sandelis (ADT: stekas, eile).
   3) Programos tikslas istirti, kuris grudu apskaitos metodas yra geresnis tarp FIFO (first-in, first-out) ir LIFO (last-in, first-out) supirkimo metodu.
   4) Superkamu grudu norma: 100 t
   5) Superkamu grudu kiekio maksimalus nuokrypis: 25%
