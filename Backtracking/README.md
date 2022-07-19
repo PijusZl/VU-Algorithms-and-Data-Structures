@@ -27,4 +27,3 @@ Protocol text file is also created and presents backtracking algorithm step by s
 >       20) -------Y=6. Netinka
 >       
 >       ...
-
