@@ -1,0 +1,49 @@
+Uzduotis - Is duoto grafo suformuoti medi. (Grafo realizacija grindziama kaimynystes sarasais; naudoti paieskos i ploti metoda).
+
+PIRMA DALIS. Duomenys
+  1) Grafo virsuniu skaicius N = 6.
+  2) Kaimynystes sarasai: E = { (C,A)  (C,B)  (C,F)  (A,B)  (A,C)  (A,D)  (B,A)  (B,C)  (B,E)  (B,F)  (D,A)  (D,E)  (E,B)  (E,D)  (F,B)  (F,C) }.
+  3) Pradine padetis C.    
+
+ANTRA DALIS. Vykdymas
+
+BANGA 0.
+Pradine padetis C.
+     1) Tikrinama A - atidaryta. I eile pridedama A. Sudaroma briauna C->A. Uzdaroma A.
+     2) Tikrinama B - atidaryta. I eile pridedama B. Sudaroma briauna C->B. Uzdaroma B.
+     3) Tikrinama F - atidaryta. I eile pridedama F. Sudaroma briauna C->F. Uzdaroma F.
+
+BANGA 1.
+Atidaryta virsune A.
+     1) Tikrinama B - uzdaryta.
+     2) Tikrinama C - uzdaryta.
+     3) Tikrinama D - atidaryta. I eile pridedama D. Sudaroma briauna A->D. Uzdaroma D.
+
+Atidaryta virsune B.
+     1) Tikrinama A - uzdaryta.
+     2) Tikrinama C - uzdaryta.
+     3) Tikrinama E - atidaryta. I eile pridedama E. Sudaroma briauna B->E. Uzdaroma E.
+     4) Tikrinama F - uzdaryta.
+
+Atidaryta virsune F.
+     1) Tikrinama B - uzdaryta.
+     2) Tikrinama C - uzdaryta.
+
+BANGA 2.
+Atidaryta virsune D.
+     1) Tikrinama A - uzdaryta.
+     2) Tikrinama E - uzdaryta.
+
+Atidaryta virsune E.
+     1) Tikrinama B - uzdaryta.
+     2) Tikrinama D - uzdaryta.
+
+
+TRECIA DALIS. Rezultatai
+
+  C
+  -A
+  --D
+  -B
+  --E
+  -F
