@@ -1,6 +1,6 @@
 ## Cryptarithmetic Puzzle Solver
 
-Program that solves 'SEND + MORE = MONEY' cryptarithm and finds one of the solutions for it.
+Program that solves `SEND + MORE = MONEY` cryptarithm and finds one of the solutions for it.
 
 Protocol text file is also created and presents backtracking algorithm step by step:
 
