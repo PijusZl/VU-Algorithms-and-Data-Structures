@@ -4,7 +4,7 @@ Program that solves 'SEND + MORE = MONEY' cryptarithm and finds one of the solut
 
 Protocol text file is also created and presents backtracking algorithm step by step.
 
-'''
+'''cpp
 ANTRA DALIS. Vykdymas
        1) D=0. OK
        2) -E=1. OK
